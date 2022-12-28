@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<input type="text" id="characacter">
+<button onclick="FindCharac()">Click</button>
+</body>
+<script>
+  function FindCharac(){
+    let charac = document.getElementById("characacter").value;
+    charac = charac.toUpperCase();
+    charac = charac.toLowerCase();
+    switch (charac) {
+        case "o":
+            document.write("Đây là nguyên âm");
+            break;
+        case "u":
+            document.write("Đây là nguyên âm");
+            break;
+        case "i":
+            document.write("Đây là nguyên âm");
+            break;
+        case "a" :
+            document.write("Đây là nguyên âm");
+            break;
+         case "e" :
+             document.write("Đây là nguyên âm");
+             break;
+          default :
+             document.write("Đây là phụ âm");
+    }
+}
+
+
+</script>
+</html>
